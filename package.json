@@ -1,0 +1,24 @@
+{
+  "name": "zoopla-trello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quarterto/zoopla-trello.git"
+  },
+  "keywords": [],
+  "author": "Matt Brennan <matt@153.io> (http://blog.153.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quarterto/zoopla-trello/issues"
+  },
+  "homepage": "https://github.com/quarterto/zoopla-trello#readme",
+  "dependencies": {
+    "trello": "^0.5.1",
+    "zoopla-detail-scraper": "^1.0.0"
+  }
+}
