@@ -19,6 +19,6 @@
   "homepage": "https://github.com/quarterto/zoopla-trello#readme",
   "dependencies": {
     "trello": "^0.5.1",
-    "zoopla-detail-scraper": "^1.0.0"
+    "zoopla-detail-scraper": "^1.2.0"
   }
 }

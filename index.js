@@ -7,7 +7,7 @@ module.exports = function(property, options) {
 	return zooplaScraper(property)
 	.then(details => trello.addCard(
 			details.address,
-			'#' + details.price + '\n##' + details.blurb + '\n\n' + details.description,
+			'#' + details.price + '\n##' + details.blurb + '\n\n' + details.description + '\n\n' + zooplaScraper.toZooplaUrl(property),
 			options.listId
 		).then(card => Promise.all(
 			details.images
